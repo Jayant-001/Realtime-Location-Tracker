@@ -1,0 +1,20 @@
+{
+  "name": "realtime-device-tracker",
+  "version": "1.0.0",
+  "description": "A realtime device tracker app that shares realtime location data.",
+  "main": "index.js",
+  "author": "Jayant",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
